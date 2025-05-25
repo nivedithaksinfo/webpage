@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation {
+  height: 400px;
+  width: 100vw;
+  background-image: url("mountain.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.navigation .main-nav {
+  display: flex;
+  padding: 20px;
+}
+.navigation .main-nav h4 {
+  text-transform: capitalize;
+  margin-left: 100px;
+  color: white;
+  display: inline;
+}
+.navigation .main-nav .one {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-left: 800px;
+}
+.navigation .main-nav .one li {
+  list-style-type: none;
+}
+.navigation .main-nav .one li a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+.navigation .main-nav .one li a:hover {
+  color: red;
+}
+.navigation .main-nav .one li ul {
+  display: none;
+}
+.navigation .main-nav .one li:hover ul {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  padding: top 50px;
+  font-weight: bold;
+  margin-top: 50px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0px;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+  color: white;
+  size: 2px;
+  transform: scale(0.8);
+}
+
+.merge {
+  height: 200px;
+  width: 500px;
+  margin-left: 550px;
+  margin-top: 150px;
+}
+
+.box {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 50px;
+}
+.box .image {
+  height: 500px;
+  width: 400px;
+  background-image: url(girl.jpg);
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 100px;
+  margin-left: 100px;
+  */
+}
+.box .about {
+  height: 400px;
+  width: 900px;
+  font-size: medium;
+  margin-right: 150px;
+}
+.box .about p {
+  text-align: start;
+  margin-top: 10px;
+}
+
+.head h2 {
+  text-align: center;
+  margin-top: 0px;
+  display: inline-block;
+  color: black;
+  height: 40px;
+  width: 100vw;
+}
+
+.parent {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding: 10px;
+  align-content: center;
+  flex-wrap: wrap;
+  /*section{
+  white-space: nowrap;
+  display: flex;
+  */
+}
+.parent .child {
+  height: 200px;
+  width: 300px;
+  background-color: aliceblue;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 30px;
+  flex-direction: column;
+}
+.parent .child #one {
+  transform: scale(2);
+  margin-bottom: 10px;
+}
+.parent .child #two {
+  transform: scale(2);
+  margin-bottom: 10px;
+}
+.parent .child #three {
+  transform: scale(2);
+  margin-bottom: 10px;
+}
+.parent .child #four {
+  transform: scale(2);
+  margin-bottom: 10px;
+}
+.parent .child #five {
+  transform: scale(2);
+  margin-bottom: 10px;
+}
+.parent .child #six {
+  transform: scale(2);
+  margin-bottom: 10px;
+}/*# sourceMappingURL=webpage.css.map */
